@@ -18,23 +18,18 @@ src:url('fonts/fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
     font-weight: normal;
     font-style: normal;
 }
-.button1{
-    width: 300px;
-    height: 40px;
-}
-.button2{
-    width: 300px;
-    height: 40px;
-}
+
 .button-container{
   display:flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 .button1 , #button2 {
 display:inline-block;
 }
 html, body{
+  height=100%;
 }
 
 body{
